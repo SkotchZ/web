@@ -1,0 +1,314 @@
+@media all and (min-width: 1367px) and (orientation: landscape) {
+  .default_rectangle {
+    width: 270px;
+    height: 270px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  .longrectangle {
+    width: 565px;
+    height: 270px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .big_rectangle {
+    width: 515px;
+    height: 550px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 130px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+  }
+  .bigest_rectangle {
+    width: 545px;
+    height: 650px;
+    margin-left: 10px;
+    margin-top: 130px;
+    margin-right: 0px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+  }
+  .big_rectangle_split {
+    width: 545px;
+    height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 17px;
+    padding-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  .red {
+    background: #ff2b4a;
+  }
+  .dark {
+    background: #002453;
+  }
+  .purpule {
+    background: #835aeb;
+  }
+  .blue {
+    background: #10c6fc;
+  }
+  .big_rectangle_color {
+    background: #55657d;
+  }
+  .left_flow {
+    margin-top: 70px ;
+    margin-left: 200px ;
+    float: left;
+  }
+  .right_flow {
+    margin-top: 70px;
+    margin-right: 200px;
+    float: right;
+  }
+  .left_side {
+    align-items: flex-start;
+    flex-direction: column;
+    height: 50px;
+    width: 100%;
+  }
+  .right_side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+  }
+  .mycontainer {
+    margin: 0 auto;
+    width: 1600px;
+    background-color: transparent;
+  }
+  .margin_purpule_man {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .vertical_flex_with_padding {
+    padding: 15% 0% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    height: 60%;
+  }
+  .vectical_flex_for_rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .vectical_flex_for_rectangle_down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-end;
+  }
+  .horizontal_flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .horizontal_flex_with_margin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .input_c {
+    background-color: transparent;
+    width: 490px;
+    height: 50px;
+    border: 1px solid #aaa;
+    color: #aaa;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .text_area_c {
+    background-color: transparent;
+    color: #aaa;
+    font-size: 18px;
+    border: 1px solid #aaa;
+    width: 490px;
+    height: 200px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: none;
+  }
+  .horizontal_flex_with_center {
+    display: flex;
+    justify-content: center;
+  }
+  .container_with_different_rectengles {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-direction: row;
+  }
+  .gradient {
+    margin: 0 auto;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    width: 1600px;
+    height: 800px;
+  }
+  .gradient2 {
+    margin: 0 auto;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    width: 1600px;
+    height: 800px;
+    height: 1000px;
+  }
+  .gradient3 {
+    margin: 0 auto;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    width: 1600px;
+    height: 800px;
+    height: 980px;
+  }
+  .black_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 400px;
+    padding-right: 400px;
+    height: 170px;
+    width: 800px;
+    background-color: #222222;
+  }
+  .button {
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 40px;
+  }
+  .big_gray_section {
+    background-color: #f6f6f6;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 210px;
+    padding-right: 210px;
+    width: 1180px;
+  }
+  .small_gray_section {
+    background-color: #f6f6f6;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .green_section {
+    padding-top: 130px;
+    padding-left: 210px;
+    padding-right: 900px;
+    text-align: left;
+    height: 570px;
+    background-color: #64cbc0;
+    width: 490px;
+  }
+  .intro_margin {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-right: 350px;
+  }
+  .horizontal_in_rectangle {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .big_font {
+    font-size: 65px;
+    color: white;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-weight: bold;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    line-height: 110px;
+    letter-spacing: 6px;
+    margin-bottom: 0px;
+  }
+  .font_in_rectangle {
+    font-size: 26px;
+    color: white;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+  }
+  .font_in_rectangle2 {
+    font-size: 26px;
+    color: white;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    text-transform: none;
+    margin-top: 10px;
+    color: #ddd;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .regular_text_raleway {
+    font-size: 16px;
+    color: white;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+  }
+  .regular_text_for_green {
+    font-size: 16px;
+    color: #666;
+    font-family: 'Roboto';
+    line-height: 28px;
+    color: #555;
+  }
+  .regular_text {
+    font-size: 16px;
+    color: #666;
+    font-family: 'Roboto';
+    line-height: 28px;
+  }
+  .intro_font {
+    font-size: 18px;
+    color: #444;
+    font-family: 'Roboto';
+    font-weight: bold;
+  }
+  .small_font_tegs {
+    font-size: 25px;
+    color: #ccc;
+    font-family: 'Roboto';
+  }
+  .working_proccess_font {
+    font-size: 40px;
+    font-family: 'Roboto';
+    margin-top: 120px;
+    font-weight: bold;
+  }
+  .right_margin {
+    margin-right: 20px;
+  }
+  .left_margin {
+    margin-left: 25px;
+  }
+}
